@@ -8,12 +8,13 @@ Actividad 1 — Patrones de diseño (Arquitectura de Software 1).
 src/main/java/co/edu/upb/patrones/
 ├── ejercicio1/   → Automóvil personalizable
 ├── ejercicio2/   → Notificaciones en distintas plataformas
-└── ejercicio3/   → Chat grupal
+└── ejercicio3/   → Chat grupal — [doc](docs/ejercicio3/README.md)
 ```
 
 Cada paquete contiene:
 - `package-info.java` — escenario, problema y beneficios esperados (tomados del PDF).
-- `Main.java` — punto de entrada vacío para probar la solución.
+- `Main.java` — punto de entrada para probar la solución.
+- En el ejercicio 3, además: [README con tipo de patrón y justificación](docs/ejercicio3/README.md).
 
 ## Qué hay que hacer (resumen del PDF)
 
