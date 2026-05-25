@@ -1,21 +1,21 @@
 package co.edu.upb.patrones.ejercicio1;
 
 public class Car {
-    private String placa;
-    private String brand;
-    private int mileage;
-    private Transmission transmission;
-    private Fuel fuel;
-    private double price;
+    private final String placa;
+    private final String brand;
+    private final int mileage;
+    private final Transmission transmission;
+    private final Fuel fuel;
+    private final double price;
 
-    private String engine;
-    private String color;
-    private String tiresBrand;
-    private String soundSystem;
-    private String interior;
-    private boolean sunroof;
-    private boolean gps;
-    private boolean parkingCamera;
+    private final String engine;
+    private final String color;
+    private final String tiresBrand;
+    private final String soundSystem;
+    private final String interior;
+    private final boolean sunroof;
+    private final boolean gps;
+    private final boolean parkingCamera;
 
     public Car(CarBuilder carBuilder) {
         this.placa = carBuilder.placa;
@@ -108,7 +108,7 @@ public class Car {
         String detail = new String();
 
         if (!this.engine.isEmpty()) {
-            detail += ("placa='" + this.engine + '\'' + "\n");
+            detail += ("engine='" + this.engine + '\'' + "\n");
         }
 
         if (!this.color.isEmpty()) {
@@ -120,7 +120,7 @@ public class Car {
         }
 
         if (!this.soundSystem.isEmpty()) {
-            detail += ("placa='" + this.soundSystem + '\'' + "\n");
+            detail += ("soundSystem='" + this.soundSystem + '\'' + "\n");
         }
 
         if (!this.interior.isEmpty()) {
